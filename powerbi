@@ -1,0 +1,13 @@
+Power bi formulas
+
+mes_nombre = SWITCH( corresponsales[Mes], 1, "ENE", 2, "FEB", 3, "MAR", 4, "ABR"  
+               , 5, "MAY", 6, "JUN", 7, "JUL", 8, "AGO"  
+               , 9, "SEP", 10, "OCT", 11, "NOV", 12, "DEC"  
+               , "X" )
+
+mes_nombre_orden = SWITCH( corresponsales[Mes], 1, "01 ENE", 2, "02 FEB", 3, "03 MAR", 4, "04 ABR"  
+               , 5, "05 MAY", 6, "06 JUN", 7, "07 JUL", 8, "08 AGO"  
+               , 9, "09 SEP", 10, "10 OCT", 11, "11 NOV", 12, "12 DEC"  
+               , "X" )
+
+
